@@ -1,15 +1,37 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
 .hero-bg{
     background-image: url("../images/port-background.jpg");
     text-align: center;
+    font-size: 50px;
     color:brown;
     background-size: cover;
     height:700px;
 }
 
 
-.nav-bar {
+.flexnav{
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 0;
-    paddig: 0;
-    background: linear-gradient(90deg, rgba(219,219,219,1) 36%, rgba(255,255,255,0.23012955182072825) 100%);
+    padding: 0;
+    background-color: rgb(186, 176, 176,.65);;
+    
+}
+.nav-bar{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.weather-plugin{
+    background-image: url("../images/weather.jpeg");
 }

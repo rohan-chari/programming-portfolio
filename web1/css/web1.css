@@ -13,7 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 50px;
     color:brown;
     background-size: cover;
-    height:700px;
+    height:400px;
 }
 
 
@@ -22,6 +22,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-transform: capitalize;
     margin: 0;
     padding: 0;
     background-color: rgb(186, 176, 176,.65);;
@@ -33,5 +34,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 20px;
 }
 .weather-plugin{
-    background-image: url("../images/weather.jpeg");
+    background-image: url("../images/weather-back-new.jpg");
+    background-size:cover;
+    height: 400px;
 }

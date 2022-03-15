@@ -34,8 +34,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     /*background-image: url("../images/weather-back-new.jpg");*/
     background-image: url('https://source.unsplash.com/1600x900/?weather');
     background-size:cover;
-    height: 400px;
-    max-height: 600px;
+    height: 500px;
+    max-height: 800px;
 }
 .card{
     background-color: rgb(186, 176, 176, .85);
@@ -75,6 +75,4 @@ button:hover{
   
 }
 
-h1.temp{
-    margin:0;
-}
+
